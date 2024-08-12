@@ -225,11 +225,16 @@ hr {
 	// Scroll Bar -------------------
 }
 
+// Utils
 .overflow-hidden {
 	overflow: hidden !important;
 }
 
 .overflow-visible {
 	overflow: visible !important;
+}
+
+.w-100 {
+  width: 100% !important;
 }
 

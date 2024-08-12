@@ -62,7 +62,7 @@ const JobList: React.FC = () => {
         </div>
       </div>
       <div className={styles.regularView}>
-        <div className="layer-box p-0">
+        <div className="layer-box p-0 w-100">
           {renderContent}
         </div>
       </div>
