@@ -37,7 +37,7 @@ const JobListingPage: React.FC = () => (
         <div className={styles.unitSmall}>
           <JobList />
         </div>
-        <div className={styles.unitBig}>
+        <div className={styles.unitBig + ' flex-col'}>
           <JobDescription />
           <JobDefinitions />
         </div>
