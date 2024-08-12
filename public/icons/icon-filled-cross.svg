@@ -1,0 +1,9 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="m10.275 8 3.411-3.411a1.072 1.072 0 0 0 0-1.517l-.758-.758a1.072 1.072 0 0 0-1.517 0L8 5.725 4.589 2.314a1.072 1.072 0 0 0-1.517 0l-.758.758a1.072 1.072 0 0 0 0 1.517L5.725 8l-3.411 3.411a1.072 1.072 0 0 0 0 1.517l.758.758a1.072 1.072 0 0 0 1.517 0L8 10.275l3.411 3.411a1.072 1.072 0 0 0 1.517 0l.758-.758a1.072 1.072 0 0 0 0-1.517L10.275 8z" id="uag410irpa"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h16v16H0z"/>
+        <use fill="#BFBFBF" fill-rule="nonzero" xlink:href="#uag410irpa"/>
+    </g>
+</svg>

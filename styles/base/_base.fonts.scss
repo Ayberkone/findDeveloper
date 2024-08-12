@@ -1,0 +1,206 @@
+/* MarkPro font-face definitions */
+@font-face {
+  font-family: 'MarkPro';
+  src: url('/fonts/markpro/MarkPro-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('/fonts/markpro/MarkPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('/fonts/markpro/MarkPro-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('/fonts/markpro/MarkPro-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkProBlack';
+  src: url('/fonts/markpro/MarkPro-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkProExtraLight';
+  src: url('/fonts/markpro/MarkPro-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkProExtraLight';
+  src: url('/fonts/markpro/MarkPro-ExtraLightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkProLight';
+  src: url('/fonts/markpro/MarkPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkProLight';
+  src: url('/fonts/markpro/MarkPro-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkProMedium';
+  src: url('/fonts/markpro/MarkPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkProMedium';
+  src: url('/fonts/markpro/MarkPro-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkProThin';
+  src: url('/fonts/markpro/MarkPro-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkProThin';
+  src: url('/fonts/markpro/MarkPro-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* Nunito font-face definitions */
+@font-face {
+  font-family: 'NunitoRegular';
+  src: url('/fonts/nunito/Nunito-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NunitoBold';
+  src: url('/fonts/nunito/Nunito-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NunitoItalic';
+  src: url('/fonts/nunito/Nunito-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NunitoBoldItalic';
+  src: url('/fonts/nunito/Nunito-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NunitoExtraBold';
+  src: url('/fonts/nunito/Nunito-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NunitoSemiBold';
+  src: url('/fonts/nunito/Nunito-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/nunito/Nunito-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/nunito/Nunito-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/nunito/Nunito-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/nunito/Nunito-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/nunito/Nunito-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/nunito/Nunito-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NunitoBlack';
+  src: url('/fonts/nunito/Nunito-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NunitoBlackItalic';
+  src: url('/fonts/nunito/Nunito-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+// Mixins
+@mixin generateFontSizes() {
+  $sizes:(8, 10, 12, 14, 16, 18, 20, 24, 32, 36, 40, 48, 54, 60, 64);
+  $spacing: 1px;
+
+  @each $size in $sizes {
+    .font-size-#{$size} {
+      font-size: $spacing * $size !important;
+      line-height: $spacing * $size;
+    }
+  }
+}
+
+@include generateFontSizes();

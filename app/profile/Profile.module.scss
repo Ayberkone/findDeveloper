@@ -1,0 +1,33 @@
+@import '/styles/Colors.module.scss';
+@import '/styles/Variables.module.scss';
+
+.profileContainer {
+  display: flex;
+  width: 100%;
+  gap: 32px;
+}
+
+.unitSmall {
+  flex: 2;
+  max-width: 100%;
+}
+
+.unitBig {
+  flex: 7;
+  max-width: 100%;
+}
+
+@media (max-width: $breakpoint-sm) {
+  .unitSmall {
+    flex: 0;
+    position: absolute;
+    left: 10px;
+    z-index: 2;
+    box-shadow: 7px 1px 6px $color-gray;
+    border-radius: 18px;
+  }
+
+  .unitBig {
+    flex: 1;
+  }
+}

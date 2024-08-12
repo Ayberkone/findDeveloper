@@ -1,0 +1,30 @@
+$classNames: (
+  (color-text, $color-text),
+  (color-blue, $color-blue)
+);
+
+@each $item in $classNames {
+  .#{nth($item, 1)} {
+    color: nth($item, 2) !important;
+  }
+
+  .bg-#{nth($item, 1)} {
+    background-color: nth($item, 2) !important;
+  }
+
+  .fill-#{nth($item, 1)} {
+    fill: nth($item, 2) !important;
+
+    path {
+      fill: nth($item, 2) !important;
+    }
+  }
+
+  .stroke-#{nth($item, 1)} {
+    stroke: nth($item, 2) !important;
+
+    path {
+      stroke: nth($item, 2) !important;
+    }
+  }
+}

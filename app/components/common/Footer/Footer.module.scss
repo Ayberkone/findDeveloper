@@ -1,0 +1,154 @@
+@import '/styles/Variables.module.scss';
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color: white;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 40px;
+}
+
+.footerBG {
+  background-color: #626160;
+}
+
+.logoContainer {
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
+  min-height: 80px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.content {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 80px;
+  font-size: 0.9rem;
+  width: 100%;
+  font-size: 14px;
+  grid-template-columns: repeat(2, 1fr);
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  nav {
+    a {
+      margin-right: 20px;
+      text-decoration: none;
+      position: relative;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &:not(:last-child) {
+        &::before {
+          content: '';
+          display: flex;
+          width: 1px;
+          height: 20px;
+          background-color: white;
+          position: absolute;
+          right: -10px;
+          bottom: -2px;
+        }
+      }
+    }
+  }
+}
+
+.contentUnit {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  a {
+    display: block;
+    text-decoration: none;
+    margin: 5px 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.description {
+  font-size: 8px;
+  line-height: 1.6;
+}
+
+@media (max-width: $breakpoint-xl) {
+  .footer {
+    .content {
+      grid-template-columns: repeat(1, 1fr);
+      grid-auto-flow: row;
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .content {
+      gap: 40px;
+      grid-template-columns: repeat(2, 1fr);
+
+      &:not(:first-of-type) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      nav {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            &:not(:last-child) {
+              &::before {
+                display: none;
+              }
+          }
+        }
+      }
+
+      select {
+        margin: 0;
+        padding-left: 0;
+      }
+    }
+
+    .contentUnit {
+      flex-direction: column;
+    }
+
+    .logoContainer {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .footer {
+    text-align: center;
+
+    .content {
+      select {
+        margin: 10px auto;
+      }
+    }
+  }
+}

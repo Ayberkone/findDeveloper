@@ -1,0 +1,35 @@
+@import '/styles/Colors.module.scss';
+@import '/styles/Variables.module.scss';
+
+.jobListContainer {
+  display: flex;
+  width: 100%;
+  gap: 32px;
+}
+
+.unitSmall {
+  flex: 2;
+  max-width: 100%;
+}
+
+.unitBig {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+}
+
+@media (max-width: $breakpoint-sm) {
+  .unitBig {
+    flex: 1;
+  }
+  .unitSmall {
+    flex: 0;
+    position: absolute;
+    left: 10vw;
+    z-index: 2;
+    box-shadow: 7px 1px 6px $color-gray;
+    border-radius: 18px;
+  }
+}

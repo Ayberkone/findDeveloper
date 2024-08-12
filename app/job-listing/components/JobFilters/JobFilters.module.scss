@@ -1,0 +1,63 @@
+@import '/styles/mixins';
+@import '/styles/Colors.module.scss';
+@import '/styles/Variables.module.scss';
+
+.filtersContainer {
+	display: flex;
+	width: 100%;
+	font-size: 18px;
+	font-family: 'NunitoBold';
+	padding: 40px 0;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.select {
+  @include select-general($color: $color-text, $maxWidth: unset);
+}
+
+.searchResult {
+	position: relative;
+}
+
+.didYouMean {
+	position: absolute;
+	top: 25px;
+	white-space: pre;
+	left: 0;
+	font-size: 12px;
+}
+
+.filterItem {
+	flex-grow: 0;
+	flex-shrink: 0;
+	display: flex;
+}
+
+.filterItemBig {
+	flex-basis: calc(100% / 4 * 3);
+}
+
+.filterItemSmall {
+	flex-basis: calc(100% / 4);
+}
+
+.blueText {
+	color: $color-blue;
+}
+
+@media (max-width: $breakpoint-md) {
+	.filtersContainer {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.filterItem {
+		flex-basis: 100%;
+	}
+
+	.filterItemBig {
+		flex-direction: column;
+		gap: 10px;
+	}
+}

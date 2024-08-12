@@ -1,0 +1,11 @@
+@import '/styles/mixins.scss';
+
+.button {
+	@include button-general;
+
+	&-blue {
+		border: 1px solid $color-blue;
+		color: $color-blue;
+		padding: 8px 32px;
+	}
+}

@@ -1,0 +1,29 @@
+@import '/styles/Colors.module.scss';
+@import '/styles/Variables.module.scss';
+
+.logoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(136px, 1fr));
+  gap: 28px;
+  justify-items: center;
+  align-items: center;
+  padding: 30px 18px;
+  background: $color-whitish;
+  border-radius: 20px;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96px;
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: $breakpoint-xs) {
+  .logoGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+

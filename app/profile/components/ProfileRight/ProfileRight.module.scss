@@ -1,0 +1,49 @@
+@import '/styles/Colors.module.scss';
+@import '/styles/Variables.module.scss';
+
+.rightSide {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+}
+
+.rightHeader {
+	font-size: 24px;
+	font-family: 'NunitoExtraBold', sans-serif;
+}
+
+.rightRow {
+	display: flex;
+	justify-content: space-between;
+}
+
+.righUnitInner {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.header {
+	font-family: 'NunitoExtraBold';
+	font-size: 32px;
+	color: #5b6987;
+}
+
+.twoColumn {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.descriptionContainer {
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+@media (max-width: $breakpoint-sm) {
+
+}
+

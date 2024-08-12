@@ -1,0 +1,32 @@
+.cardContainer {
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	font-family: 'NunitoBold', sans-serif;
+}
+
+.imageContainer {
+	position: absolute;
+	right: 10px;
+	top: 30px;
+}
+
+.cardHeader {
+	font-size: 20px;
+	font-family: 'NunitoBold', sans-serif;
+}
+
+.cardText {
+	font-size: 12px;
+	font-family: 'NunitoRegular', sans-serif;
+	max-width: 50%;
+	min-width: 130px;
+	margin-top: 10px;
+}
+
+.cardButton {
+	font-size: 12px;
+	font-family: 'NunitoBold', sans-serif;
+	text-decoration: underline;
+	margin-top: 18px;
+}
